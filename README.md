@@ -2,12 +2,28 @@
 This script demonstrates how to connect to a MinIO server using the boto3 library in Python
 and perform basic operations like listing buckets.
 
+# MinIO Setup
+- Install MinIO server:
+  ```bash
+    wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20250613113347.0.0_amd64.deb -O minio.deb
+    sudo dpkg -i minio.deb
+  ```
+- Create a directory for MinIO data:
+  ```bash
+  mkdir ~/minio
+  ```
+- Run MioIO server:
+  ```bash
+  minio server ~/minio --console-address ":9001"
+  ```
+
 # Requirements
 - Python 3.x
 - Install dependencies using pip:
   ```bash
   pip3 install -r requirements.txt
   ```
+
 # Usage
 1. Environment variable file settings:
     - Create env file
