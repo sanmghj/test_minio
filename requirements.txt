@@ -1,0 +1,15 @@
+argon2-cffi==25.1.0
+argon2-cffi-bindings==21.2.0
+boto3==1.39.4
+botocore==1.39.4
+certifi==2025.7.9
+cffi==1.17.1
+jmespath==1.0.1
+minio==7.2.15
+pycparser==2.22
+pycryptodome==3.23.0
+python-dateutil==2.9.0.post0
+s3transfer==0.13.0
+six==1.17.0
+typing_extensions==4.14.1
+urllib3==2.5.0
